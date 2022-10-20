@@ -11,11 +11,11 @@
 	<atom:link href="https://vanhao1-2-3.github.io/mywordpress/san-pham/sprout-side-table/feed/" rel="self" type="application/rss+xml" />
 	<link>https://vanhao1-2-3.github.io/mywordpress/san-pham/sprout-side-table/</link>
 	<description>Một trang web mới sử dụng WordPress</description>
-	<lastBuildDate>Thu, 13 Oct 2022 02:57:03 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Oct 2022 01:23:35 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.0.3</generator>
 </channel>
 </rss>
