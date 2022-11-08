@@ -39,7 +39,7 @@ img.emoji {
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
 <link rel="stylesheet" id="contact-form-7-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4" media="all">
-<link rel="stylesheet" id="rs-plugin-settings-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.8" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.1.7" media="all">
 <style id="rs-plugin-settings-inline-css">#rs-demo-id {}</style>
 <link rel="stylesheet" id="woocommerce-layout-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=6.9.4" media="all">
 <link rel="stylesheet" id="woocommerce-smallscreen-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=6.9.4" media="only screen and (max-width: 768px)">
@@ -61,8 +61,8 @@ body,input,textarea,button,.button,.faux-button,.wp-block-button__link,.wp-block
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
 <script src="https://vanhao1-2-3.github.io/mywordpress/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="https://vanhao1-2-3.github.io/mywordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
-<script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.0.4" id="tp-tools-js"></script>
-<script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.8" id="revmin-js"></script>
+<script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/revolution.tools.min.js?ver=6.0" id="tp-tools-js"></script>
+<script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.1.7" id="revmin-js"></script>
 <script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/themes/twentytwenty/assets/js/index.js?ver=2.0" id="twentytwenty-js-js" async></script>
 <link rel="https://api.w.org/" href="https://vanhao1-2-3.github.io/mywordpress/wp-json/">
 <link rel="alternate" type="application/json" href="https://vanhao1-2-3.github.io/mywordpress/wp-json/wp/v2/product_tag/45">
@@ -73,51 +73,49 @@ body,input,textarea,button,.button,.faux-button,.wp-block-button__link,.wp-block
 	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
 		<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<style id="custom-background-css">body.custom-background { background-color: #fff; }</style>
-	<meta name="generator" content="Powered by Slider Revolution 6.2.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-<script type="text/javascript">function setREVStartSize(e){
-			//window.requestAnimationFrame(function() {				 
-				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
-				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
-				try {								
-					var pw = document.getElementById(e.c).parentNode.offsetWidth,
-						newh;
-					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
-					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
-					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
-					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
-					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
-					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
-					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
-					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
-					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
-						newh = Math.max(e.mh,window.RSIH);					
-					else{					
-						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
-						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
-						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
-						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
-											
-						var nl = new Array(e.rl.length),
-							ix = 0,						
-							sl;					
-						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
-						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
-						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
-						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
-						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
-						sl = nl[0];									
-						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
-						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
-						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
-					}				
-					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
-					document.getElementById(e.c).height = newh+"px";
-					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
-				} catch(e){
-					console.log("Failure at Presize of Slider:" + e)
-				}					   
-			//});
+	<meta name="generator" content="Powered by Slider Revolution 6.1.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<script type="text/javascript">function setREVStartSize(e){			
+			try {								
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw===0 || isNaN(pw) ? window.innerWidth : pw;
+				e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+				if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+					newh = Math.max(e.mh,window.innerHeight);				
+				else{					
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+					e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+										
+					var nl = new Array(e.rl.length),
+						ix = 0,						
+						sl;					
+					e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+					for (var i in e.rl) nl[i] = e.rl[i]<window.innerWidth ? 0 : e.rl[i];
+					sl = nl[0];									
+					for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+					var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+
+					newh =  (e.type==="carousel" && e.justify==="true" ? e.gh[ix] : (e.gh[ix] * m)) + (e.tabh + e.thumbh);
+				}			
+				
+				if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+				document.getElementById(e.c).height = newh;
+				window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+			} catch(e){
+				console.log("Failure at Presize of Slider:" + e)
+			}					   
 		  };</script>
 </head>
 <body class="archive tax-product_tag term-home-6 term-45 custom-background wp-embed-responsive theme-twentytwenty woocommerce woocommerce-page woocommerce-no-js enable-search-modal has-no-pagination showing-comments show-avatars footer-top-visible elementor-default elementor-kit-5">

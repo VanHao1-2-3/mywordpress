@@ -39,7 +39,7 @@ img.emoji {
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
 <link rel="stylesheet" id="contact-form-7-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4" media="all">
-<link rel="stylesheet" id="rs-plugin-settings-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.8" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.1.7" media="all">
 <style id="rs-plugin-settings-inline-css">#rs-demo-id {}</style>
 <link rel="stylesheet" id="photoswipe-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=6.9.4" media="all">
 <link rel="stylesheet" id="photoswipe-default-skin-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=6.9.4" media="all">
@@ -63,8 +63,8 @@ body,input,textarea,button,.button,.faux-button,.wp-block-button__link,.wp-block
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" media="all">
 <script src="https://vanhao1-2-3.github.io/mywordpress/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="https://vanhao1-2-3.github.io/mywordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
-<script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.0.4" id="tp-tools-js"></script>
-<script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.2.8" id="revmin-js"></script>
+<script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/revolution.tools.min.js?ver=6.0" id="tp-tools-js"></script>
+<script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.1.7" id="revmin-js"></script>
 <script src="https://vanhao1-2-3.github.io/mywordpress/wp-content/themes/twentytwenty/assets/js/index.js?ver=2.0" id="twentytwenty-js-js" async></script>
 <link rel="https://api.w.org/" href="https://vanhao1-2-3.github.io/mywordpress/wp-json/">
 <link rel="alternate" type="application/json" href="https://vanhao1-2-3.github.io/mywordpress/wp-json/wp/v2/product/853">
@@ -79,51 +79,49 @@ body,input,textarea,button,.button,.faux-button,.wp-block-button__link,.wp-block
 	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
 		<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
 	<style id="custom-background-css">body.custom-background { background-color: #fff; }</style>
-	<meta name="generator" content="Powered by Slider Revolution 6.2.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-<script type="text/javascript">function setREVStartSize(e){
-			//window.requestAnimationFrame(function() {				 
-				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
-				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
-				try {								
-					var pw = document.getElementById(e.c).parentNode.offsetWidth,
-						newh;
-					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
-					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
-					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
-					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
-					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
-					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
-					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
-					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
-					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
-						newh = Math.max(e.mh,window.RSIH);					
-					else{					
-						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
-						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
-						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
-						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
-											
-						var nl = new Array(e.rl.length),
-							ix = 0,						
-							sl;					
-						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
-						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
-						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
-						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
-						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
-						sl = nl[0];									
-						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
-						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
-						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
-					}				
-					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
-					document.getElementById(e.c).height = newh+"px";
-					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
-				} catch(e){
-					console.log("Failure at Presize of Slider:" + e)
-				}					   
-			//});
+	<meta name="generator" content="Powered by Slider Revolution 6.1.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<script type="text/javascript">function setREVStartSize(e){			
+			try {								
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw===0 || isNaN(pw) ? window.innerWidth : pw;
+				e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+				if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+					newh = Math.max(e.mh,window.innerHeight);				
+				else{					
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+					e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+										
+					var nl = new Array(e.rl.length),
+						ix = 0,						
+						sl;					
+					e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+					for (var i in e.rl) nl[i] = e.rl[i]<window.innerWidth ? 0 : e.rl[i];
+					sl = nl[0];									
+					for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+					var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+
+					newh =  (e.type==="carousel" && e.justify==="true" ? e.gh[ix] : (e.gh[ix] * m)) + (e.tabh + e.thumbh);
+				}			
+				
+				if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+				document.getElementById(e.c).height = newh;
+				window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+			} catch(e){
+				console.log("Failure at Presize of Slider:" + e)
+			}					   
 		  };</script>
 </head>
 <body class="product-template-default single single-product postid-853 custom-background wp-embed-responsive theme-twentytwenty woocommerce woocommerce-page woocommerce-no-js singular enable-search-modal has-post-thumbnail has-single-pagination showing-comments show-avatars footer-top-visible elementor-default elementor-kit-5">
@@ -350,8 +348,8 @@ body,input,textarea,button,.button,.faux-button,.wp-block-button__link,.wp-block
 	<form class="cart" action="http://localhost/myproject/wordpress/san-pham/__trashed/" method="post" enctype="multipart/form-data">
 		
 			<div class="quantity">
-				<label class="screen-reader-text" for="quantity_6369e27e2d1f4">Heavy Sound Travel Speaker số lượng</label>
-		<input type="number" id="quantity_6369e27e2d1f4" class="input-text qty text" step="1" min="1" max="300" name="quantity" value="1" title="SL" size="4" placeholder="" inputmode="numeric" autocomplete="off">
+				<label class="screen-reader-text" for="quantity_6369e82e5336a">Heavy Sound Travel Speaker số lượng</label>
+		<input type="number" id="quantity_6369e82e5336a" class="input-text qty text" step="1" min="1" max="300" name="quantity" value="1" title="SL" size="4" placeholder="" inputmode="numeric" autocomplete="off">
 			</div>
 	
 		<button type="submit" name="add-to-cart" value="853" class="single_add_to_cart_button button alt">Thêm vào giỏ hàng</button>
@@ -440,35 +438,35 @@ body,input,textarea,button,.button,.faux-button,.wp-block-button__link,.wp-block
 		<ul class="products columns-4">
 
 			
-					<li class="product type-product post-865 status-publish first instock product_cat-all product_cat-sofas product_tag-home-7 has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
-	<a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/sprout-side-table/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="150" height="150" src="https://vanhao1-2-3.github.io/mywordpress/wp-content/uploads/2022/10/Product-IMG-15-150x150-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Sprout Side Table</h2>
+					<li class="product type-product post-915 status-publish first instock product_cat-all product_cat-furnitures product_tag-home-9-2 has-post-thumbnail taxable shipping-taxable purchasable product-type-variable has-default-attributes">
+	<a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/circula-coffee-table-02/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="150" height="150" src="https://vanhao1-2-3.github.io/mywordpress/wp-content/uploads/2022/10/Product-IMG-26-150x150-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Circula Coffee Table 02</h2>
 <div class="eael-star-rating star-rating"><span style="width:0%">Được xếp hạng <strong class="rating">0</strong> 5 sao</span></div>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3.820.000,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
-</a><a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/__trashed/?add-to-cart=865" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="865" data-product_sku="su20" aria-label="Thêm &ldquo;Sprout Side Table&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3.565.000,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a><a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/circula-coffee-table-02/" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="915" data-product_sku="su8" aria-label="Lựa chọn cho &ldquo;Circula Coffee Table 02&rdquo;" rel="nofollow">Lựa chọn các tùy chọn</a>
 </li>
 
 			
-					<li class="product type-product post-868 status-publish instock product_cat-all product_cat-sofas product_tag-home-12 product_tag-home-14 product_tag-home-9 has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
-	<a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/jwda-table-lamp/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="150" height="150" src="https://vanhao1-2-3.github.io/mywordpress/wp-content/uploads/2022/10/Product-IMG-22-150x150-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">JWDA Table Lamp</h2>
+					<li class="product type-product post-1032 status-publish instock product_cat-all product_cat-decor product_tag-home-12 product_tag-home-7 has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/reade-tubular-table-lamp-02/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="450" height="450" src="https://vanhao1-2-3.github.io/mywordpress/wp-content/uploads/2022/10/rise.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Reade Tubular Table Lamp 02</h2>
 <div class="eael-star-rating star-rating"><span style="width:0%">Được xếp hạng <strong class="rating">0</strong> 5 sao</span></div>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3.680.000,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
-</a><a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/__trashed/?add-to-cart=868" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="868" data-product_sku="su12" aria-label="Thêm &ldquo;JWDA Table Lamp&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.900.000,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a><a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/__trashed/?add-to-cart=1032" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="1032" data-product_sku="su34" aria-label="Thêm &ldquo;Reade Tubular Table Lamp 02&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
 </li>
 
 			
-					<li class="product type-product post-866 status-publish instock product_cat-all product_cat-sofas product_tag-home-8 has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
-	<a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/clean-cut-dining-chair/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="150" height="150" src="https://vanhao1-2-3.github.io/mywordpress/wp-content/uploads/2022/10/Product-IMG-25-150x150-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Clean Cut Dining Chair</h2>
+					<li class="product type-product post-864 status-publish instock product_cat-all product_cat-sofas product_tag-home-1 product_tag-home-10 product_tag-home-11 product_tag-home-13-1 product_tag-home-14 product_tag-home-7 product_tag-home-8 product_tag-home-9-2 has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/afteroom-coat-hanger-02/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="379" height="450" src="https://vanhao1-2-3.github.io/mywordpress/wp-content/uploads/2022/10/Product-IMG-600x713-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Afteroom Coat Hanger 02</h2>
 <div class="eael-star-rating star-rating"><span style="width:0%">Được xếp hạng <strong class="rating">0</strong> 5 sao</span></div>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>4.400.000,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
-</a><a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/__trashed/?add-to-cart=866" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="866" data-product_sku="su9" aria-label="Thêm &ldquo;Clean Cut Dining Chair&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>4.140.000,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a><a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/__trashed/?add-to-cart=864" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="864" data-product_sku="su1" aria-label="Thêm &ldquo;Afteroom Coat Hanger 02&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
 </li>
 
 			
-					<li class="product type-product post-850 status-publish last instock product_cat-all product_cat-lightning product_tag-home-12 product_tag-home-13-1 product_tag-home-2 product_tag-home-6 product_tag-home-8 has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
-	<a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/heavy-sound-travel-speaker/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="150" height="150" src="https://vanhao1-2-3.github.io/mywordpress/wp-content/uploads/2022/10/Product-IMG-19-150x150-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Pack Bobber Lamps</h2>
+					<li class="product type-product post-914 status-publish last instock product_cat-all product_cat-furnitures product_tag-home-14 product_tag-home-2 product_tag-home-8 has-post-thumbnail taxable shipping-taxable purchasable product-type-simple">
+	<a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/afteroom-dining-chair-02/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="380" height="450" src="https://vanhao1-2-3.github.io/mywordpress/wp-content/uploads/2022/10/Product-IMG-31-600x710-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" decoding="async" loading="lazy"><h2 class="woocommerce-loop-product__title">Afteroom Dining Chair 02</h2>
 <div class="eael-star-rating star-rating"><span style="width:0%">Được xếp hạng <strong class="rating">0</strong> 5 sao</span></div>
-	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>3.358.000,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
-</a><a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/__trashed/?add-to-cart=850" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="850" data-product_sku="su16" aria-label="Thêm &ldquo;Pack Bobber Lamps&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi>2.400.000,00&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></bdi></span></span>
+</a><a href="https://vanhao1-2-3.github.io/mywordpress/san-pham/__trashed/?add-to-cart=914" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="914" data-product_sku="su2" aria-label="Thêm &ldquo;Afteroom Dining Chair 02&rdquo; vào giỏ hàng" rel="nofollow">Thêm vào giỏ hàng</a>
 </li>
 
 			
